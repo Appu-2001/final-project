@@ -14,7 +14,7 @@ import streamlit as st
 st.set_page_config(layout='wide')
 # Title
 st.header(':violet[E-commerce Customer Segmentation]')
-df=pd.read_csv(r"C:\Users\SKAN\Desktop\Raajee\final_project\clustered_customer_data.csv")
+df=pd.read_csv(r"c:\Users\APPUKUTTY\Downloads\E-commerce-customer-segmentation-main\E-commerce-customer-segmentation-main\clustered_customer_data.csv")
 
 col1,col2,col3,col4,col5=st.columns(5)
 with col1:
